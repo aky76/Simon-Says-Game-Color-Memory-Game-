@@ -91,16 +91,6 @@ function reset() {
 
 highScoreDisplay.innerText = `High Score: ${highScore}`;
 
-// let allBtn = document.querySelectorAll(".btn");
-// for (let btn of allBtns) {
-//     btn.addEventListener("click", function() {
-//         // Change button color to black
-//         this.style.backgroundColor = "gray";
-
-//         // Revert back to original color after 100 milliseconds
-//         setTimeout(() => {
-//             this.style.backgroundColor = ""; // Reset to original color
-//         }, 30);
 
 //         // Call the existing button press logic
 //         btnPress.call(this);
